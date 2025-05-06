@@ -53,7 +53,7 @@ With this configuration, it will be displayed like this:
 
 ### Launch
 
-The console window will automatically hide 5 seconds after launch. You can perform actions such as Stop/Resume, Show/Hide Window, Show Parameters List, and Exit from the taskbar icon.
+The console window will automatically hide 5 seconds after launch. You can perform actions such as Stop/Resume, Show/Hide Window, Show Parameters List, and Exit from the task tray icon.
 
 ## References
 
