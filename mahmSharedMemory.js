@@ -9,44 +9,6 @@ const map = new NodeIPC.FileMapping()
 
 // MSI Afterburner/SDK/Include/MAHMSharedMemory.h
 
-/*
-  available parameters
-  ------------------------
-
-  name                      example   unit
-  ------------------------  --------  -----
-  gpuTemperature            30.625..  ℃
-  gpuUsage                  1.7399..  %
-
-  cpuUsage                  1.7399..  %
-  cpu1Usage, cpu2Usage ...  1.7399..  %
-  cpuTemperature            30.625..  ℃
-  cpu1Temperature ...       30.625..  ℃
-  cpuClock                  3400      MHz
-  cpu1Clock ...             3400      MHz
-  cpuPower                  0.4039..  W
-  cpu1Power ...             0.4039..  W
-
-  power                     10.015..  W
-  coreClock                 210       MHz
-  memoryClock               405       MHz
-  fbUsage                   30        %
-  vidUsage                  0         %
-  busUsage                  0         %
-  memoryUsage               793.56..  MB
-  ramUsage                  11769     MB
-  commitCharge              15997     MB
-  fanSpeed                            RPM
-  fanSpeed2                           RPM
-  fanTachometer                       RPM
-  fanTachometer2                      RPM
-  tempLimit
-  powerLimit
-  voltageLimit
-  noLoadLimit
-  framerate                           FPS
-*/
-
 const MAX_PATH = 260
 
 const MahmHeader = new Struct()

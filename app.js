@@ -67,6 +67,8 @@ const showData = () => {
 
     if (ctx.data !== undefined && ctx.format && ctx.units) {
       line.push(sprintf(ctx.format, typeof ctx.data === 'number' ? ctx.data : String(ctx.data)).padStart(10) + ' ' + ctx.units)
+    } else if (ctx.data !== undefined) {
+      line.push(ctx.data)
     }
 
     console.log(line.join(' '))
